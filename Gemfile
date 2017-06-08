@@ -51,6 +51,8 @@ gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 
 gem 'devise', '~> 4.3'
 
+gem 'paperclip', '~> 5.1'
+
 group :production do
   gem 'pg'
   gem 'rails_12factor'
