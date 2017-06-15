@@ -53,6 +53,8 @@ gem 'devise', '~> 4.3'
 
 gem 'paperclip', '~> 5.1'
 
+gem 'aws-sdk', '~> 2.9', '>= 2.9.35'
+
 group :production do
   gem 'pg'
   gem 'rails_12factor'
